@@ -35,7 +35,6 @@ body {
     gap: 4px;
 }
 
-/* Nicer scrollbar */
 #messages_container::-webkit-scrollbar {
     width: 6px;
 }
