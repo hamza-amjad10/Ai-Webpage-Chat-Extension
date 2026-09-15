@@ -91,10 +91,6 @@ The backend will be running at `http://localhost:8000`.
 
 > ⚠️ Make sure the backend is running before using the extension.
 
----
-
-
----
 
 ## ⚠️ Known Limitations
 
