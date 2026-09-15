@@ -96,11 +96,11 @@ The backend will be running at `http://localhost:8000`.
 
 - **JavaScript-heavy pages**: Since content extraction uses `WebBaseLoader` (which fetches raw HTML without executing JavaScript), pages that render their content dynamically via JS (e.g. modern React/Vue sites) may return incomplete content. Static and server-rendered pages (like Wikipedia) work reliably.
 - **Very long pages**: Page content is truncated to stay within the LLM's practical context limits on the free Hugging Face Inference tier. Extremely long articles may lose some detail from later sections.
-- **Fixed popup size**: Chrome extension popups can't be resized by dragging — the window has a fixed size.
+- **Fixed popup size**: Chrome extension popups can't be resized by dragging the window has a fixed size.
 
 ## 🔭 Future Improvements
 
-- Add proper **RAG (Retrieval-Augmented Generation)** with chunking + embeddings + vector search (FAISS/Chroma) to handle long pages without truncation
+- Add proper **RAG (Retrieval-Augmented Generation)** with chunking + embeddings + vector search (FAISS/Chroma) to handle      long pages without truncation
 - Switch to a **Selenium/Playwright-based loader** to support JavaScript-rendered pages
 - Add conversation memory so follow-up questions retain context
 - Publish to the Chrome Web Store
