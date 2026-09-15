@@ -1,0 +1,20 @@
+{
+    "manifest_version":3,
+    "name":"AI Webpage Assitant",
+    "version":"1.0.0",
+    "description":"Ask questions about the current Webpage using AI.",
+    "permissions":[
+        "activeTab"
+    ],
+    "host_permissions":["http://localhost:8000/"],
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":"new_image.png"
+    },
+    "icons":{
+        "16": "new_image.png",
+        "48": "new_image.png",
+        "128": "new_image.png"
+    }
+
+}
