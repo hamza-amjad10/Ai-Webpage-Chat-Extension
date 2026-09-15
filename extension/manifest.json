@@ -9,12 +9,12 @@
     "host_permissions":["http://localhost:8000/"],
     "action":{
         "default_popup":"popup.html",
-        "default_icon":"new_image.png"
+        "default_icon":"extension_image.png"
     },
     "icons":{
-        "16": "new_image.png",
-        "48": "new_image.png",
-        "128": "new_image.png"
+        "16": "extension_image.png",
+        "48": "extension_image.png",
+        "128": "extension_image.png"
     }
 
 }
