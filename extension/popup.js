@@ -10,7 +10,7 @@ function addMessage(text, sender) {
     let messagesContainer = document.getElementById("messages_container");
     messagesContainer.appendChild(messageDiv);
 
-    return messageDiv;   // ← ye naya add karo
+    return messageDiv;  
 }
 
 user_input.addEventListener("keypress",(e)=>{
@@ -29,7 +29,7 @@ send_button.addEventListener("click", async () => {
         currentWindow: true
     });
 
-    let loadingDiv = addMessage("Thinking...", "ai");   // ← loading dikhao
+    let loadingDiv = addMessage("Thinking...", "ai");  
 
     let response = await fetch("http://localhost:8000/ask", {
         method: "POST",
@@ -41,7 +41,7 @@ send_button.addEventListener("click", async () => {
     });
 
     let data = await response.json();
-    loadingDiv.textContent = data.answer;   // ← "Thinking..." ko asal jawab se replace kiya
+    loadingDiv.textContent = data.answer;  
 });
 
 
