@@ -1,6 +1,6 @@
 # 🤖 AI Webpage Assistant
 
-A Chrome extension that lets you **chat with any webpage** using AI. Ask questions about the page you're currently viewing and get instant, context-aware answers — powered by LangChain and Hugging Face.
+A Chrome extension that lets you **chat with any webpage** using AI. Ask questions about the page you're currently viewing and get instant, context-aware answers powered by LangChain and Hugging Face.
 
 
 ---
